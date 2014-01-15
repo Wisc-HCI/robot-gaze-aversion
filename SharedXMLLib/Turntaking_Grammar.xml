@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xml:lang="en-US" root="topLevel" 
+tag-format="semantics/1.0" version="1.0" 
+xmlns="http://www.w3.org/2001/06/grammar">
+
+  <rule id="topLevel">
+   <one-of>
+    <item> What is your favorite color? <tag> out="Question1"; </tag> </item>
+    <item> How old are you? <tag> out="Question2"; </tag> </item>
+    <item> Where are you from? <tag> out="Question3"; </tag> </item>
+	<item> Could you tell me a little bit about yourself? <tag> out="Question4"; </tag> </item>
+	<item> What are some things that make you angry? <tag> out="Question5"; </tag> </item>
+   </one-of>
+  </rule>
+
+
+</grammar>

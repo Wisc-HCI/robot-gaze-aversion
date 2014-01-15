@@ -1,4 +1,12 @@
-gaze-hri14
-==========
+#UW-Madison HCI Nao Gaze Study#
+Contain is the implementation of the Gaze Study demonstrated in the paper *"Conversational Gaze Aversion for Humanlike Robots"* for HRI'14.
+###Prerequisite###
+* Kinect for Windows SDK v1.7.0
+* Kinect for Windows Developer Toolkit v1.7.0
+* NAOQi DotNet 4 SDK 1.14.5 Windows 32 bits
 
-Implementation of the Gaze Study demonstrated in the paper "Conversational Gaze Aversion for Humanlike Robots" for HRI'14.
+###Creators###
+xtan(at)cs.wisc.edu  
+sandrist(at)cs.wisc.edu  
+University of Wisconsin - Madison  
+[Human Computer Interactive Lab](hci.cs.wisc.edu)

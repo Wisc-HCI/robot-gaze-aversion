@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xml:lang="en-US" root="topLevel" 
+tag-format="semantics/1.0" version="1.0" 
+xmlns="http://www.w3.org/2001/06/grammar">
+
+  <rule id="topLevel">
+   <one-of>
+    <item> Where can I find the computer and media center desk? <tag> out="Question1"; </tag> </item>
+    <item> What is the loan period for video games? <tag> out="Question2"; </tag> </item>
+    <item> How many books are held in all the libraries on campus? <tag> out="Question3"; </tag> </item>
+	  <item> Where can I find the book Mankind Beyond Earth? <tag> out="Question4"; </tag> </item>
+	  <item> Where is Memorial Library? <tag> out="Question5"; </tag> </item>
+   </one-of>
+  </rule>
+
+
+</grammar>

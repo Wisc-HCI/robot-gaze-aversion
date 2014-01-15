@@ -1,0 +1,9 @@
+﻿<Window x:Class="HCI.GAS.Task4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Task 4 - Turn Taking" MouseDown="window_MouseDown" WindowState="Maximized" Closing="Window_Closing">
+    <Grid>
+        <Label Content="4" FontSize="300" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Window>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xml:lang="en-US" root="topLevel" 
+tag-format="semantics/1.0" version="1.0" 
+xmlns="http://www.w3.org/2001/06/grammar">
+
+  <rule id="topLevel">
+   <one-of>
+    <item> How would you describe yourself? <tag> out="Question1"; </tag> </item>
+    <item> What is your greatest weakness? <tag> out="Question2"; </tag> </item>
+    <item> What are your greatest strengths? <tag> out="Question3"; </tag> </item>
+	<item> Tell me about a time you worked on a team. <tag> out="Question4"; </tag> </item>
+	<item> What is your preferred way to communicate? <tag> out="Question5"; </tag> </item>
+   </one-of>
+  </rule>
+
+
+</grammar>
