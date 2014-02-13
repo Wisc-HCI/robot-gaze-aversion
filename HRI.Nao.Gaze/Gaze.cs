@@ -24,7 +24,7 @@ namespace HCI.Nao.Gaze
         protected bool active;
         public bool reverse;
         public bool staticmotion = false;
-
+         
         private readonly List<string> jointList;
         protected List<float> initAngle;
         protected List<float> endAngle;
