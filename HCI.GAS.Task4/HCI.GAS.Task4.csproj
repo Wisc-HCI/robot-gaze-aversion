@@ -184,7 +184,7 @@
       <Project>{c966dba8-bc42-416a-a3f5-d03fbe15a8ff}</Project>
       <Name>HCI.GAS.Logs</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HCI.Kinnect\HCI.Kinect.csproj">
+    <ProjectReference Include="..\HCI.Kinect\HCI.Kinect.csproj">
       <Project>{20fc4028-5b99-4992-ab4b-218120d7b20d}</Project>
       <Name>HCI.Kinect</Name>
     </ProjectReference>

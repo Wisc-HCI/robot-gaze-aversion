@@ -140,10 +140,6 @@
       <Project>{ca5e9e2d-7842-4255-8eae-99a86e704e3e}</Project>
       <Name>HCI.GAS.Kinect</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HCI.Kinnect\HCI.Kinect.csproj">
-      <Project>{20fc4028-5b99-4992-ab4b-218120d7b20d}</Project>
-      <Name>HCI.Kinect</Name>
-    </ProjectReference>
     <ProjectReference Include="..\HRI.Nao.Gaze\HCI.Nao.Gaze.csproj">
       <Project>{2a8e1861-42ee-4ae3-bd7e-8cfb3e40a861}</Project>
       <Name>HCI.Nao.Gaze</Name>

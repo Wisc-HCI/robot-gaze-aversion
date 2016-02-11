@@ -67,6 +67,7 @@
     <Reference Include="MathNet.Numerics.IO">
       <HintPath>..\packages\MathNet.Numerics.2.6.0\lib\net40\MathNet.Numerics.IO.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Kinect, Version=1.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files\Microsoft SDKs\Speech\v11.0\Assembly\Microsoft.Speech.dll</HintPath>
@@ -152,7 +153,7 @@
       <Project>{c966dba8-bc42-416a-a3f5-d03fbe15a8ff}</Project>
       <Name>HCI.GAS.Logs</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HCI.Kinnect\HCI.Kinect.csproj">
+    <ProjectReference Include="..\HCI.Kinect\HCI.Kinect.csproj">
       <Project>{20fc4028-5b99-4992-ab4b-218120d7b20d}</Project>
       <Name>HCI.Kinect</Name>
     </ProjectReference>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI.GAS.Main", "HCI.GAS.Main\HCI.GAS.Main.csproj", "{3E832A21-1758-42AF-B45D-F37E0C6928C1}"
 EndProject
@@ -14,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI.GAS.Task3", "HCI.GAS.Task3\HCI.GAS.Task3.csproj", "{2030D83B-CA74-4CC3-9008-EED640FA4C43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI.GAS.Task4", "HCI.GAS.Task4\HCI.GAS.Task4.csproj", "{F6BCE4F6-53AE-4C8F-B68D-D55BC0FABCA5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI.Kinect", "HCI.Kinnect\HCI.Kinect.csproj", "{20FC4028-5B99-4992-AB4B-218120D7B20D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{97EA5CAB-D9A0-4D18-B29A-89E6806B1BCE}"
 	ProjectSection(SolutionItems) = preProject
@@ -49,6 +47,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI.Nao.Gaze.Test", "HCI.Nao.Gaze.Test\HCI.Nao.Gaze.Test.csproj", "{C85D3E06-7645-4945-BEFA-BDC6506A7D39}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI.GAS.Logs", "HCI.GAS.Logs\HCI.GAS.Logs.csproj", "{C966DBA8-BC42-416A-A3F5-D03FBE15A8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI.Kinect", "HCI.Kinect\HCI.Kinect.csproj", "{20FC4028-5B99-4992-AB4B-218120D7B20D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -132,18 +132,6 @@ Global
 		{F6BCE4F6-53AE-4C8F-B68D-D55BC0FABCA5}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F6BCE4F6-53AE-4C8F-B68D-D55BC0FABCA5}.Release|x86.ActiveCfg = Release|x86
 		{F6BCE4F6-53AE-4C8F-B68D-D55BC0FABCA5}.Release|x86.Build.0 = Release|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|Any CPU.Build.0 = Debug|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|x86.ActiveCfg = Debug|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|x86.Build.0 = Debug|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|Mixed Platforms.Build.0 = Release|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|x86.ActiveCfg = Release|x86
-		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|x86.Build.0 = Release|x86
 		{E0BC1A04-0BBB-4CBE-9558-988DB9D49B9D}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{E0BC1A04-0BBB-4CBE-9558-988DB9D49B9D}.Debug|Any CPU.Build.0 = Debug|x86
 		{E0BC1A04-0BBB-4CBE-9558-988DB9D49B9D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
@@ -238,6 +226,18 @@ Global
 		{C966DBA8-BC42-416A-A3F5-D03FBE15A8FF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C966DBA8-BC42-416A-A3F5-D03FBE15A8FF}.Release|x86.ActiveCfg = Release|x86
 		{C966DBA8-BC42-416A-A3F5-D03FBE15A8FF}.Release|x86.Build.0 = Release|x86
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|x86.ActiveCfg = Debug|x86
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Debug|x86.Build.0 = Debug|x86
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|Mixed Platforms.Build.0 = Release|x86
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|x86.ActiveCfg = Release|x86
+		{20FC4028-5B99-4992-AB4B-218120D7B20D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
